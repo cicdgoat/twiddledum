@@ -1,5 +1,7 @@
 'use strict'
 
+require("twiddledee");
+
 function dedupe (client, hasher) {
     hasher = hasher || JSON.stringify
 
