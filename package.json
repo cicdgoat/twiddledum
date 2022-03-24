@@ -8,7 +8,9 @@
   },
   "author": "Manuel Ernst <seriousstuff@gmx.de>",
   "license": "MIT",
-  "dependencies": {},
+  "dependencies": {
+    "twiddledee": "git+http://localhost:3000/Wonderland/twiddledee#semver:^1.1.0"
+  },
   "devDependencies": {
     "chai": "^4.2.0",
     "mocha": "^5.2.0"
@@ -16,7 +18,7 @@
   "files": [
     "index.js"
   ],
-  "main": "./index.js",
+  "main": "index.js",
   "keywords": [
     "duplicates",
     "array",
@@ -24,11 +26,5 @@
     "distinct",
     "deduplicate",
     "deduplication"
-  ],
-  "scripts": {
-    "test": "mocha test"
-  },
-  "engines": {
-    "node": ">=4.0"
-  }
+  ]
 }
